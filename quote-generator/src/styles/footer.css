@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #828282;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    padding-bottom: 17px;
+}
+
+.user {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.user:visited {
+    color: #828282;
+}
+
+.user:active, .user:hover {
+    color: #3f3f3f; 
+}

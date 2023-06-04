@@ -1,0 +1,51 @@
+.container-info {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    position: absolute;
+    top: 400px; 
+    padding: 25px 0 25px 10px;
+    width: 370px; 
+    transition: all 0.3s linear;
+}
+
+.author {
+    font-size: 17px;
+    font-weight: 700;
+    color: #4F4F4F;
+    padding-bottom: 8px;
+}
+
+.arrow {
+    display: none;
+}
+
+.genre {
+    font-size: 15px;
+    font-weight: 500;
+    color: #828282;
+}
+
+.info:hover {
+    background-color: #333333;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+}
+
+
+.info:hover > .author {
+    color: #F2F2F2;
+}
+
+.info:hover > .arrow {
+    display: block;
+    position: absolute;
+    fill: #F2F2F2;
+    right: 10px;
+    top: 35.5px;
+    width: 25px;
+    height: auto;
+}
+

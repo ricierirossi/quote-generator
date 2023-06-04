@@ -1,0 +1,15 @@
+.container-quote {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.bar {
+    background-color: #F7DF94;
+    width: 5px;
+    margin-right: 50px;
+}
+
+.quote {
+    width: 400px;
+}
