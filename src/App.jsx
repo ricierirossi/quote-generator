@@ -1,4 +1,4 @@
-// import './App.css'
+import './App.css'
 import QuotePage from './components/QuotePage'
 
 function App() {

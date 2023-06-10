@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     margin-top: 130px;
+    flex-grow: 1;
 }
 
 .bar {
@@ -10,6 +11,20 @@
     margin-right: 50px;
 }
 
+
 .quote {
+    position: relative;
     width: 400px;
+    text-align: left;
+}
+
+.quote::before {
+    content:'';
+    height: 100%;
+    width: 5px;
+    background-color: #F7DF94;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -50px;
 }
