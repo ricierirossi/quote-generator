@@ -7,9 +7,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: #828282;
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
+    width: 100%;
     text-align: center;
     padding-bottom: 17px;
 }
