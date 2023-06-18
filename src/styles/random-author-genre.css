@@ -5,7 +5,7 @@
 
 .info {
     padding: 25px 0 25px 10px;
-    width: 370px; 
+    width: 415px;
     transition: all 0.3s linear;
 }
 
@@ -33,13 +33,15 @@
 }
 
 
-.info:hover > .author {
+.info:hover>.author {
     color: #F2F2F2;
 }
 
-.info:hover > .arrow {
+.info:hover>.arrow {
     display: block;
     position: absolute;
+    top: 30px;
+    left: 380px;
     fill: #F2F2F2;
     right: 10px;
     top: 35.5px;
@@ -47,3 +49,75 @@
     height: auto;
 }
 
+@media (min-width: 320px) and (max-width: 719px) {
+
+    .info {
+        margin-top: 50px;
+        top: 0px;
+        left: 0px;
+        width: 200px;
+        height: 70px;
+    }
+
+    .author,
+    .genre {
+        position: relative;
+        top: -10px;
+    }
+
+    .info:hover>.arrow {
+        top: 25px;
+        left: 170px;
+    }
+
+}
+
+@media (min-width: 720px) and (max-width: 1199px) {
+
+    .info {
+        margin-top: 50px;
+        top: 0px;
+        left: -35px;
+        width: 200px;
+        height: 70px;
+    }
+
+    .author,
+    .genre {
+        position: relative;
+        top: -10px;
+    }
+
+    .info:hover>.arrow {
+        top: 25px;
+        left: 170px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .info {
+        margin-top: 50px;
+        left: 48px;
+    }
+
+    .author,
+    .genre {
+        position: relative;
+    }
+
+    .info:hover>.arrow {
+        top: 40px;
+        left: 370px;
+        width: 30px;
+    }
+
+    .author {
+        font-size: 20px;
+    }
+
+    .genre {
+        font-size: 18px;
+    }
+}

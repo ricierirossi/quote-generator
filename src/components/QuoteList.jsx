@@ -1,5 +1,6 @@
 import React from "react"
 import Quote from './Quote'
+import '../styles/quote-list.css'
 
 function QuoteList({ author, quoteList }) {
 
@@ -12,12 +13,14 @@ function QuoteList({ author, quoteList }) {
     })
 
     return (
-        <>
+        <div className="wrapper">
+        <div className="container-list">
             <h1>{author}</h1>
             <ul>
                 {listItem}
             </ul>
-        </>
+        </div>
+        </div>
     )
 
 }

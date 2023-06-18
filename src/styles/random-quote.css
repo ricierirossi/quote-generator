@@ -28,3 +28,41 @@
     top: 0;
     left: -50px;
 }
+
+@media (min-width: 320px) and (max-width: 719px) {
+
+    .container-quote {
+        margin-top: 80px;
+        flex-grow: 0;
+    }
+
+    .quote {
+        width: 200px;
+    }
+    
+}
+
+@media (min-width: 720px) and (max-width: 1199px) {
+    
+    .container-quote {
+        margin-top: 80px;
+    }
+
+    .quote {
+        width: 250px;
+    }
+    
+}
+
+@media (min-width: 1200px)  {
+    
+    .container-quote {
+        margin-top: 80px;
+    }
+
+    .quote {
+        font-size: 20px;
+        width: 300px;
+    }
+    
+}
