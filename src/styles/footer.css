@@ -24,3 +24,27 @@
 .user:active, .user:hover {
     color: #3f3f3f; 
 }
+
+@media (max-width: 400px) {
+
+    .footer {
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 720px) and (max-width: 1199px) {
+
+    .footer {
+        margin-top: 125px;
+        position: relative;
+        bottom: 0;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .footer {
+        font-size: 18px;
+    }
+}
